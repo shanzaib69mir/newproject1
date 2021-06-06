@@ -1,0 +1,516 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0px ;
+    padding: 0px;
+        background-color: black;
+}
+
+.main-content{
+    background-image: url(./img/layer.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+
+}
+a{
+    text-decoration: none;
+    
+}
+li :hover{
+background-color: chocolate;
+}
+header{
+    
+    justify-content: space-between;
+    justify-content: center;
+}
+.section1{
+display: flex;
+}
+
+.menu li{
+    list-style: none;
+ 
+}
+.list {
+        display:flex;
+        padding: 10px ;
+     margin-right:270px  ;
+        
+}
+.list a{
+    padding: 10px ;
+    color: white;
+}
+
+.logo{
+    margin-right: 170px;
+    padding: 15px;
+    display: flex;
+}
+#memu{
+    display: flex;
+    
+}
+#menu ul{
+    display: flex;
+    /* margin-right: 100px; */
+    
+    
+    }
+    #menu a{
+        padding: 10px;
+        color: white;
+        }
+#menu li{
+list-style: none;
+
+        }
+.subcont{
+    display: flex;
+    color: white;
+}
+.sub2{
+margin-top: 40px;
+margin-left: 20px;
+/* padding: 0px 0px; */
+}
+.sub2 h2{
+    color:chocolate;
+    font-size: 50px;
+    padding: 0px;
+}
+.sub2 button{
+    border: none;
+    background-color: chocolate;
+    font-size: 17px;
+}
+.sep{
+color: white;
+}
+section{
+    display: flex;
+    margin: 40px;
+}
+.sep{
+    margin:  10px;
+    margin-top: 70px;
+}
+.sep h3{
+ font-weight: bold;
+ font-size: 30px;
+}
+
+.img h2{ 
+color: white;
+font-size: 30px;
+text-align: center;
+}
+.img img{
+ /* padding: 10px; */
+ display: flex;
+ flex-direction: row;
+ 
+}
+
+
+.boom{display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.broderimg{
+    background-image:url(img/layer2.png) ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+ flex-direction: column;
+display: flex;
+justify-content: center;
+align-content: center;
+
+}
+.font{
+ border: 2px solid chocolate;
+width: 25%;
+height: 35%;
+color: white;
+text-align: center;
+font-weight: bold;
+/* height:50vh; */
+margin: 0px auto;
+
+
+}
+
+.mainbox {
+    padding: 20px; 
+    display: flex;
+    }
+    .box1{
+padding: 20px;
+    }
+
+
+    .mainbox h4{
+color: chocolate;
+ text-align: center;
+    }
+    .mainbox h3 {
+        color: chocolate;
+            }
+            .box2 h5{
+color: crimson
+;
+            }
+            .mainbox p {
+                color: white;
+                    }
+.rectangle{
+    background-image:url(img/Rectangle.png ) ;
+    background-size: cover;
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+
+}
+.rectangle{
+    color: white;
+    display: flex;
+}
+.rectangle img{
+  margin-top: -40px;
+}
+.prg p{
+ margin-left: 40px;
+  }
+  .rectangle h3 {
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .footer img{
+   
+      display: flex;
+      margin: 0px auto;
+      justify-self: center;
+  }
+  .part ul{
+    
+    list-style: none;
+    justify-content: space-around;
+    
+   
+  }
+  .part {
+    color: white; 
+margin: 0px auto;
+
+display: flex;
+
+
+
+  }
+  .part li{
+      margin: 0px auto;
+      justify-content: center;
+    
+  }
+.ul{
+    margin: 0px auto;
+    display: flex;
+  
+
+}
+.ul {
+padding: 30px;
+color: white;
+} 
+
+.ul a{
+    
+    color: white;
+    } 
+.subfooter{
+    display: flex;
+    padding: 10px;
+}
+.subfooter i{
+    color: white;
+    font-size: 30px ;
+    display: flex
+    
+}
+.icon {
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+     list-style: none;
+
+    
+}
+.icon i{
+    padding: 30px;
+}
+
+/*  section media  */
+
+ @media screen and (max-width: 820px) { 
+    .section1{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    
+        
+}
+  } 
+  @media screen and (max-width: 820px) { 
+    .list{
+        
+        
+        text-align: center;
+        
+    
+        
+}
+  } 
+  @media screen and (max-width: 820px) { 
+    .menu d{
+        
+        
+        text-align: center;
+        margin-left: 50px;
+    
+        
+}
+  } 
+
+
+  
+ @media screen and (max-width: 820px) { 
+    .logo{
+        display:flex;
+        justify-content: center;
+        margin-left: 130px;
+    
+        
+}
+  } 
+
+
+    
+ @media screen and (max-width: 820px) { 
+    .subcont{
+        display:flex;
+        justify-content: center;
+        margin-left: 130px;
+    
+        
+}
+  } 
+     
+ @media screen and (max-width: 820px) { 
+    .subcont{
+        display:flex;
+        justify-content: center;
+        /* margin-left: 130px; */
+    flex-direction: column;
+        
+}
+  } 
+
+
+  @media screen and (max-width: 420px) { 
+    .sub2{
+        display:flex;
+        justify-content: center;
+        /* margin-left: 130px; */
+        flex-direction: column;
+        /* padding: 100px 0px; */
+
+    
+        
+}
+  } 
+  @media screen and (max-width: 420px) { 
+    .sub2{
+        display:flex;
+        justify-content: center;
+        /* margin-left: 130px; */
+        flex-direction: column;
+        /* padding: 100px 0px; */
+        width: 200px;
+        margin-top:100px;
+        margin-left:-60px ;
+     
+    
+        
+}
+  } 
+
+  @media screen and (max-width: 420px) { 
+    .sub2 h2{
+        font-size: 16px;
+
+    
+        
+}
+  } 
+
+
+
+
+  @media screen and (max-width: 420px) { 
+    .sub1{
+        display:flex;
+        justify-content: center;
+        /* margin-left: 130px; */
+        /* flex-direction: column; */
+        /* padding: 100px 0px; */
+        width: 0px;
+        height: 100px;
+    
+        
+}
+  } 
+   /* image */
+   
+  @media screen and (max-width: 420px) { 
+    .sub1 img{
+        
+        width: 350px;
+        height: 200px;
+    
+        
+}
+  } 
+  @media screen and (max-width: 820px) { 
+    .section{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    
+        
+}
+  } 
+  @media screen and (max-width: 820px) { 
+    .boom{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    
+    
+        
+}
+  } 
+  @media screen and (max-width: 820px) { 
+    .boom img{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        
+        
+}
+  } 
+
+  @media screen and (max-width: 820px) { 
+    .mainbox{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    
+        
+}
+  } 
+
+  @media screen and (max-width: 820px) { 
+    .font{
+     width: 140px;
+     padding: 22%;
+    
+        
+}
+  } 
+
+  @media screen and (max-width: 820px) { 
+    .rectangle {
+        display: flex;
+        flex-direction: column;
+        
+            background-image:url(img/Rectangle.png ) ;
+            background-size: cover;
+            width: 100%;
+            height: 40vh;
+            background-position: center;
+        
+        }
+     
+}
+  
+
+
+
+
+  @media screen and (max-width: 820px) { 
+    .picho img{
+     
+    
+        width: 120px;
+        height: 120px;
+        margin-top: -20px;
+        margin-left: 120px;
+        padding-top: 20px;
+}
+  } 
+  @media screen and (max-width: 820px) { 
+    .prg{
+        
+  width: 390px;
+text-align: center;
+}
+  } 
+
+
+
+
+
+  @media screen and (max-width: 820px) { 
+    .prg p{
+        text-align: center;
+  width: 200px;
+  margin-right: 80px;
+  margin-left: 100px;
+  margin-top: -30px;
+
+}
+  } 
+  @media screen and (max-width: 820px) { 
+    .prg h3{
+        text-align: center;
+
+  margin-top: -5px;
+
+}
+  } 
+  @media screen and (max-width: 820px) { 
+    .ul{
+ display: flex;
+ 
+ flex-direction: column;
+ text-align: center; 
+
+}
+  } 
+  @media screen and (max-width: 820px) { 
+    .icon{
+ display: flex;
+ text-align: center;
+ flex-direction: column;
+
+
+}
+  } 
